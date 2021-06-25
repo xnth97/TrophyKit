@@ -1,5 +1,7 @@
 # TrophyKit
 
+An animated trophy banner that looks like Xbox achievement.
+
 [![Version](https://img.shields.io/cocoapods/v/TrophyKit.svg?style=flat)](https://cocoapods.org/pods/TrophyKit)
 [![License](https://img.shields.io/cocoapods/l/TrophyKit.svg?style=flat)](https://cocoapods.org/pods/TrophyKit)
 [![Platform](https://img.shields.io/cocoapods/p/TrophyKit.svg?style=flat)](https://cocoapods.org/pods/TrophyKit)
@@ -8,7 +10,14 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## Demo
+
+![](Screenshots/demo.mov)
+
 ## Requirements
+
+* iOS 14.0+
+* Swift 5.3+
 
 ## Installation
 
@@ -18,10 +27,6 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'TrophyKit'
 ```
-
-## Author
-
-Yubo Qin, xnth97@live.com
 
 ## License
 
