@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '14.0'
+
+target 'TrophyKit_Example' do
+  pod 'TrophyKit', :path => '../'
+
+  target 'TrophyKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

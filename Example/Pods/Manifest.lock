@@ -1,0 +1,16 @@
+PODS:
+  - TrophyKit (0.1.0)
+
+DEPENDENCIES:
+  - TrophyKit (from `../`)
+
+EXTERNAL SOURCES:
+  TrophyKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TrophyKit: bbcf1461e335b0fddb787e1517cb8908180e6647
+
+PODFILE CHECKSUM: e8d5621c3e5e57983bed16a0db5d7449ca413309
+
+COCOAPODS: 1.10.1

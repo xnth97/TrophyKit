@@ -1,0 +1,5 @@
+*.DS_Store
+.swiftpm/
+Example/TrophyKit.xcodeproj/xcuserdata/
+Example/TrophyKit.xcworkspace/xcuserdata/
+Example/Pods/Pods.xcodeproj/xcuserdata

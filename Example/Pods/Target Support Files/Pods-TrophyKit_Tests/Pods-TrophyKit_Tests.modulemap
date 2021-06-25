@@ -1,0 +1,6 @@
+framework module Pods_TrophyKit_Tests {
+  umbrella header "Pods-TrophyKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
