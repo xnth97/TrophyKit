@@ -28,6 +28,16 @@ it, simply add the following line to your Podfile:
 pod 'TrophyKit'
 ```
 
+## TODO
+
+- [ ] More customization APIs
+- [ ] Tweak animation and visual
+- [ ] Sound and haptic support
+- [ ] Swift Package Manager
+- [ ] Queue for multiple trophies
+- [ ] Position for display trophy banner
+- [ ] Manually hide banner
+
 ## License
 
 TrophyKit is available under the MIT license. See the LICENSE file for more info.
