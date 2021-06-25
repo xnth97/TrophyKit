@@ -27,7 +27,7 @@ class ViewController: UIViewController {
                             title: "Achievement Unlocked",
                             subtitle: "You have added a new skill!",
                             size: .medium)
-        trophy.show(in: view)
+        trophy.show(from: self)
     }
 
 }

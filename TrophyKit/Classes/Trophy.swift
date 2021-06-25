@@ -21,6 +21,7 @@ public class Trophy {
     public static let defaultDarkColor = UIColor(red: 15/255, green: 114/255, blue: 15/255, alpha: 1.0)
 
     private static let horizontalPadding: CGFloat = 24.0
+    private static let labelPadding: CGFloat = 16.0
     private static let bottomPadding: CGFloat = 64.0
 
     private let icon: UIImage
@@ -40,6 +41,9 @@ public class Trophy {
 
     /// Initializes a `Trophy` instance to show the banner. You must call `show` function to show the
     /// animated banner in given views. The cost if initializer is very small if you do not call `show`.
+    ///
+    /// Please note that currently both `title` and `subtitle` only support 1 line of text instead of
+    /// wrapping. Please arrange texts properly.
     ///
     /// - Parameters:
     ///   - icon: Image for icon that is shown in the ball. This icon is shown before the banner, usually
@@ -186,8 +190,8 @@ public class Trophy {
 
         NSLayoutConstraint.activate([
             stackView.centerYAnchor.constraint(equalTo: labelView.centerYAnchor),
-            stackView.leadingAnchor.constraint(equalTo: labelView.leadingAnchor, constant: height / 2 + 16.0),
-            stackView.trailingAnchor.constraint(equalTo: labelView.trailingAnchor, constant: -height / 2 - 16.0),
+            stackView.leadingAnchor.constraint(equalTo: labelView.leadingAnchor, constant: height / 2 + Self.labelPadding),
+            stackView.trailingAnchor.constraint(equalTo: labelView.trailingAnchor, constant: -height / 2 - Self.labelPadding),
 
             labelView.heightAnchor.constraint(equalToConstant: height),
         ])
@@ -272,6 +276,7 @@ public class Trophy {
         let bannerDuration = 0.25
         let bannerShowTime = 3.0
 
+        /// TODO: Refactory this silly animate chain. Somehow `UIViewPropertyAnimator` not working properly.
         UIView.animate(withDuration: circleDuration, delay: 0.0, options: .curveEaseInOut) {
             self.circleView.transform = .identity
         } completion: { _ in
@@ -306,6 +311,14 @@ public class Trophy {
                 }
             }
         }
+    }
+
+    /// Shows an animated trophy banner in a given view controller.
+    ///
+    /// - Parameters:
+    ///     - viewController: `UIViewController` in which the banner is shown.
+    public func show(from viewController: UIViewController) {
+        show(in: viewController.view)
     }
 
 }
