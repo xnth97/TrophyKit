@@ -12,7 +12,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Demo
 
-![](Screenshots/demo.mov)
+https://user-images.githubusercontent.com/6781789/123460143-0b87dd80-d59c-11eb-97f9-4951e914a106.mov
 
 ## Requirements
 
