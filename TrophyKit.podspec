@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TrophyKit'
-  s.version          = '0.1.1'
+  s.version          = '0.2'
   s.summary          = 'An animated trophy banner that looks like Xbox achievement.'
   s.description      = <<-DESC
   An animated trophy banner that looks like Xbox achievement.

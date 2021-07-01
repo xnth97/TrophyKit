@@ -1,5 +1,5 @@
 PODS:
-  - TrophyKit (0.1.0)
+  - TrophyKit (0.2)
 
 DEPENDENCIES:
   - TrophyKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TrophyKit: bbcf1461e335b0fddb787e1517cb8908180e6647
+  TrophyKit: 00eaa6f2adb0b459c83f22933e736438c7dfefcf
 
 PODFILE CHECKSUM: e8d5621c3e5e57983bed16a0db5d7449ca413309
 

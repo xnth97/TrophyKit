@@ -22,12 +22,12 @@ class ViewController: UIViewController {
     }
 
     @IBAction func showTrophy() {
-        let trophy = Trophy(iconSymbol: "gamecontroller.fill",
-                            trophyIconSymbol: "rosette",
-                            title: "Achievement Unlocked",
-                            subtitle: "You have added a new skill!",
-                            size: .medium)
-        trophy.show(from: self)
+        let trophy = Trophy(configuration: TrophyConfiguration(size: .medium))
+        trophy.show(from: self,
+                    title: "Achievement Unlocked",
+                    subtitle: "You have added a new skill!",
+                    iconSymbol: "gamecontroller.fill",
+                    trophyIconSymbol: "rosette")
     }
 
 }
