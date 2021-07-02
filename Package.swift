@@ -7,6 +7,7 @@ let package = Package(
     name: "TrophyKit",
     platforms: [
         .iOS(.v14),
+        .tvOS(.v14),
     ],
     products: [
         .library(

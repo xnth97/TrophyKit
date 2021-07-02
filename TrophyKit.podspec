@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TrophyKit'
-  s.version          = '0.2'
+  s.version          = '0.2.1'
   s.summary          = 'An animated trophy banner that looks like Xbox achievement.'
   s.description      = <<-DESC
   An animated trophy banner that looks like Xbox achievement.
@@ -20,6 +20,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/xnth97/TrophyKit.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '14.0'
+  s.tvos.deployment_target = '14.0'
 
   s.source_files = 'TrophyKit/Classes/**/*'
 

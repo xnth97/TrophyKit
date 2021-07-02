@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02F0F29F305ECAA2517E7823 /* Pods_TrophyKit_Example_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE1D3C672C1DE960AEB58D51 /* Pods_TrophyKit_Example_tvOS.framework */; };
 		48D0A6E9483A88CBFFD3A81A /* Pods_TrophyKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604C819451FD5F832C76EFD2 /* Pods_TrophyKit_Tests.framework */; };
-		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
-		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
-		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		EC00E9EC0DE84270F253D721 /* Pods_TrophyKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D3D1C142B1C6D8E5669A45F /* Pods_TrophyKit_Example.framework */; };
+		7C47977855F2DACB896D3745 /* Pods_TrophyKit_Example_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FDFDA13343000E1BD4E425 /* Pods_TrophyKit_Example_iOS.framework */; };
+		CB42A9C4268EEAA5007FBF1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB42A9BC268EEAA5007FBF1D /* ViewController.swift */; };
+		CB42A9C5268EEAA5007FBF1D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB42A9BD268EEAA5007FBF1D /* LaunchScreen.xib */; };
+		CB42A9C6268EEAA5007FBF1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB42A9BF268EEAA5007FBF1D /* Main.storyboard */; };
+		CB42A9C7268EEAA5007FBF1D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB42A9C1268EEAA5007FBF1D /* Images.xcassets */; };
+		CB42A9C8268EEAA5007FBF1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB42A9C2268EEAA5007FBF1D /* AppDelegate.swift */; };
+		CB42A9D3268EEAB6007FBF1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB42A9CB268EEAB6007FBF1D /* ViewController.swift */; };
+		CB42A9D4268EEAB6007FBF1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB42A9CC268EEAB6007FBF1D /* Assets.xcassets */; };
+		CB42A9D5268EEAB6007FBF1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB42A9CD268EEAB6007FBF1D /* LaunchScreen.storyboard */; };
+		CB42A9D6268EEAB6007FBF1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB42A9CF268EEAB6007FBF1D /* Main.storyboard */; };
+		CB42A9D7268EEAB6007FBF1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB42A9D1268EEAB6007FBF1D /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,24 +34,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		001F0AE83D506C26969923C1 /* Pods-TrophyKit_Example_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrophyKit_Example_iOS.release.xcconfig"; path = "Target Support Files/Pods-TrophyKit_Example_iOS/Pods-TrophyKit_Example_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		16313AA4B6F3EDE72048BB41 /* Pods-TrophyKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrophyKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TrophyKit_Tests/Pods-TrophyKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1CC96EFCA18059A21A5C1AF0 /* Pods-TrophyKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrophyKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-TrophyKit_Tests/Pods-TrophyKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		25A76BD65F8CEA3B75EB9E46 /* TrophyKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TrophyKit.podspec; path = ../TrophyKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		3D3D1C142B1C6D8E5669A45F /* Pods_TrophyKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrophyKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28FDFDA13343000E1BD4E425 /* Pods_TrophyKit_Example_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrophyKit_Example_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C52C32D835CC658AAD5EEF /* Pods-TrophyKit_Example_tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrophyKit_Example_tvOS.release.xcconfig"; path = "Target Support Files/Pods-TrophyKit_Example_tvOS/Pods-TrophyKit_Example_tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		3D4E7CC75F9CFD1E9E6675C3 /* Pods-TrophyKit_Example_tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrophyKit_Example_tvOS.debug.xcconfig"; path = "Target Support Files/Pods-TrophyKit_Example_tvOS/Pods-TrophyKit_Example_tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		604C819451FD5F832C76EFD2 /* Pods_TrophyKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrophyKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACD01AFB9204008FA782 /* TrophyKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrophyKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		607FACD01AFB9204008FA782 /* TrophyKit_Example_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrophyKit_Example_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACE51AFB9204008FA782 /* TrophyKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrophyKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7E8FE0D4A31B7E303D3E599F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8FFDD6EB1181ED3B0A753C60 /* Pods-TrophyKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrophyKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-TrophyKit_Example/Pods-TrophyKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A02B4A3A6275EEE73BEA75F0 /* Pods-TrophyKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrophyKit_Example.release.xcconfig"; path = "Target Support Files/Pods-TrophyKit_Example/Pods-TrophyKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CB42A9A8268EE591007FBF1D /* TrophyKit_Example_tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrophyKit_Example_tvOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB42A9BC268EEAA5007FBF1D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB42A9BE268EEAA5007FBF1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CB42A9C0268EEAA5007FBF1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB42A9C1268EEAA5007FBF1D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB42A9C2268EEAA5007FBF1D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB42A9C3268EEAA5007FBF1D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB42A9CB268EEAB6007FBF1D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB42A9CC268EEAB6007FBF1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB42A9CE268EEAB6007FBF1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB42A9D0268EEAB6007FBF1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB42A9D1268EEAB6007FBF1D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB42A9D2268EEAB6007FBF1D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7F7FE40977038F2857587BA /* Pods-TrophyKit_Example_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrophyKit_Example_iOS.debug.xcconfig"; path = "Target Support Files/Pods-TrophyKit_Example_iOS/Pods-TrophyKit_Example_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		DE1D3C672C1DE960AEB58D51 /* Pods_TrophyKit_Example_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrophyKit_Example_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB6E4C040E890C6FA000A4FD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,7 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC00E9EC0DE84270F253D721 /* Pods_TrophyKit_Example.framework in Frameworks */,
+				7C47977855F2DACB896D3745 /* Pods_TrophyKit_Example_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,14 +84,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CB42A9A5268EE591007FBF1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F0F29F305ECAA2517E7823 /* Pods_TrophyKit_Example_tvOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				CB42A9BB268EEAA5007FBF1D /* TrophyKit_Example_iOS */,
+				CB42A9CA268EEAB6007FBF1D /* TrophyKit_Example_tvOS */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACD21AFB9204008FA782 /* Example for TrophyKit */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				D4D41C6C921DCEE6BBB864FB /* Pods */,
@@ -84,32 +111,11 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* TrophyKit_Example.app */,
+				607FACD01AFB9204008FA782 /* TrophyKit_Example_iOS.app */,
 				607FACE51AFB9204008FA782 /* TrophyKit_Tests.xctest */,
+				CB42A9A8268EE591007FBF1D /* TrophyKit_Example_tvOS.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		607FACD21AFB9204008FA782 /* Example for TrophyKit */ = {
-			isa = PBXGroup;
-			children = (
-				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
-				607FACD31AFB9204008FA782 /* Supporting Files */,
-			);
-			name = "Example for TrophyKit";
-			path = TrophyKit;
-			sourceTree = "<group>";
-		};
-		607FACD31AFB9204008FA782 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				607FACD41AFB9204008FA782 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		607FACE81AFB9204008FA782 /* Tests */ = {
@@ -142,10 +148,37 @@
 		BBD9B76864D7E999A7FB3CFD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3D3D1C142B1C6D8E5669A45F /* Pods_TrophyKit_Example.framework */,
 				604C819451FD5F832C76EFD2 /* Pods_TrophyKit_Tests.framework */,
+				28FDFDA13343000E1BD4E425 /* Pods_TrophyKit_Example_iOS.framework */,
+				DE1D3C672C1DE960AEB58D51 /* Pods_TrophyKit_Example_tvOS.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB42A9BB268EEAA5007FBF1D /* TrophyKit_Example_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB42A9C2268EEAA5007FBF1D /* AppDelegate.swift */,
+				CB42A9BC268EEAA5007FBF1D /* ViewController.swift */,
+				CB42A9BD268EEAA5007FBF1D /* LaunchScreen.xib */,
+				CB42A9BF268EEAA5007FBF1D /* Main.storyboard */,
+				CB42A9C1268EEAA5007FBF1D /* Images.xcassets */,
+				CB42A9C3268EEAA5007FBF1D /* Info.plist */,
+			);
+			path = TrophyKit_Example_iOS;
+			sourceTree = "<group>";
+		};
+		CB42A9CA268EEAB6007FBF1D /* TrophyKit_Example_tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB42A9D1268EEAB6007FBF1D /* AppDelegate.swift */,
+				CB42A9CB268EEAB6007FBF1D /* ViewController.swift */,
+				CB42A9CC268EEAB6007FBF1D /* Assets.xcassets */,
+				CB42A9CD268EEAB6007FBF1D /* LaunchScreen.storyboard */,
+				CB42A9CF268EEAB6007FBF1D /* Main.storyboard */,
+				CB42A9D2268EEAB6007FBF1D /* Info.plist */,
+			);
+			path = TrophyKit_Example_tvOS;
 			sourceTree = "<group>";
 		};
 		D4D41C6C921DCEE6BBB864FB /* Pods */ = {
@@ -155,6 +188,10 @@
 				A02B4A3A6275EEE73BEA75F0 /* Pods-TrophyKit_Example.release.xcconfig */,
 				16313AA4B6F3EDE72048BB41 /* Pods-TrophyKit_Tests.debug.xcconfig */,
 				1CC96EFCA18059A21A5C1AF0 /* Pods-TrophyKit_Tests.release.xcconfig */,
+				D7F7FE40977038F2857587BA /* Pods-TrophyKit_Example_iOS.debug.xcconfig */,
+				001F0AE83D506C26969923C1 /* Pods-TrophyKit_Example_iOS.release.xcconfig */,
+				3D4E7CC75F9CFD1E9E6675C3 /* Pods-TrophyKit_Example_tvOS.debug.xcconfig */,
+				30C52C32D835CC658AAD5EEF /* Pods-TrophyKit_Example_tvOS.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -162,9 +199,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* TrophyKit_Example */ = {
+		607FACCF1AFB9204008FA782 /* TrophyKit_Example_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TrophyKit_Example" */;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TrophyKit_Example_iOS" */;
 			buildPhases = (
 				A611D85E199035F3B3EC6A50 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
@@ -176,9 +213,9 @@
 			);
 			dependencies = (
 			);
-			name = TrophyKit_Example;
+			name = TrophyKit_Example_iOS;
 			productName = TrophyKit;
-			productReference = 607FACD01AFB9204008FA782 /* TrophyKit_Example.app */;
+			productReference = 607FACD01AFB9204008FA782 /* TrophyKit_Example_iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 		607FACE41AFB9204008FA782 /* TrophyKit_Tests */ = {
@@ -200,13 +237,32 @@
 			productReference = 607FACE51AFB9204008FA782 /* TrophyKit_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		CB42A9A7268EE591007FBF1D /* TrophyKit_Example_tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB42A9B8268EE592007FBF1D /* Build configuration list for PBXNativeTarget "TrophyKit_Example_tvOS" */;
+			buildPhases = (
+				90F79EB66DA46839EBB8A6E4 /* [CP] Check Pods Manifest.lock */,
+				CB42A9A4268EE591007FBF1D /* Sources */,
+				CB42A9A5268EE591007FBF1D /* Frameworks */,
+				CB42A9A6268EE591007FBF1D /* Resources */,
+				1ED8415BCAA1D4C660FF63EA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrophyKit_Example_tvOS;
+			productName = "TrophyKit Example tvOS";
+			productReference = CB42A9A8268EE591007FBF1D /* TrophyKit_Example_tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
@@ -218,6 +274,10 @@
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
+					};
+					CB42A9A7268EE591007FBF1D = {
+						CreatedOnToolsVersion = 13.0;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -235,7 +295,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* TrophyKit_Example */,
+				607FACCF1AFB9204008FA782 /* TrophyKit_Example_iOS */,
+				CB42A9A7268EE591007FBF1D /* TrophyKit_Example_tvOS */,
 				607FACE41AFB9204008FA782 /* TrophyKit_Tests */,
 			);
 		};
@@ -246,9 +307,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				CB42A9C5268EEAA5007FBF1D /* LaunchScreen.xib in Resources */,
+				CB42A9C6268EEAA5007FBF1D /* Main.storyboard in Resources */,
+				CB42A9C7268EEAA5007FBF1D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,17 +320,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CB42A9A6268EE591007FBF1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB42A9D6268EEAB6007FBF1D /* Main.storyboard in Resources */,
+				CB42A9D4268EEAB6007FBF1D /* Assets.xcassets in Resources */,
+				CB42A9D5268EEAB6007FBF1D /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5FE400B0BE7DE8DCFE015B9C /* [CP] Embed Pods Frameworks */ = {
+		1ED8415BCAA1D4C660FF63EA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TrophyKit_Example/Pods-TrophyKit_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/TrophyKit/TrophyKit.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-TrophyKit_Example_tvOS/Pods-TrophyKit_Example_tvOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TrophyKit-tvOS/TrophyKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -277,7 +348,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrophyKit_Example/Pods-TrophyKit_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrophyKit_Example_tvOS/Pods-TrophyKit_Example_tvOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FE400B0BE7DE8DCFE015B9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrophyKit_Example_iOS/Pods-TrophyKit_Example_iOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TrophyKit-iOS/TrophyKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TrophyKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrophyKit_Example_iOS/Pods-TrophyKit_Example_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90F79EB66DA46839EBB8A6E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrophyKit_Example_tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A611D85E199035F3B3EC6A50 /* [CP] Check Pods Manifest.lock */ = {
@@ -295,7 +406,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TrophyKit_Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-TrophyKit_Example_iOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -331,8 +442,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				CB42A9C8268EEAA5007FBF1D /* AppDelegate.swift in Sources */,
+				CB42A9C4268EEAA5007FBF1D /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,31 +455,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CB42A9A4268EE591007FBF1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB42A9D7268EEAB6007FBF1D /* AppDelegate.swift in Sources */,
+				CB42A9D3268EEAB6007FBF1D /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* TrophyKit_Example */;
+			target = 607FACCF1AFB9204008FA782 /* TrophyKit_Example_iOS */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
+		CB42A9BD268EEAA5007FBF1D /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
+				CB42A9BE268EEAA5007FBF1D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		CB42A9BF268EEAA5007FBF1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB42A9C0268EEAA5007FBF1D /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
+		CB42A9CD268EEAB6007FBF1D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				607FACDF1AFB9204008FA782 /* Base */,
+				CB42A9CE268EEAB6007FBF1D /* Base */,
 			);
-			name = LaunchScreen.xib;
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CB42A9CF268EEAB6007FBF1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB42A9D0268EEAB6007FBF1D /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -475,31 +611,37 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FFDD6EB1181ED3B0A753C60 /* Pods-TrophyKit_Example.debug.xcconfig */;
+			baseConfigurationReference = D7F7FE40977038F2857587BA /* Pods-TrophyKit_Example_iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TrophyKit/Info.plist;
+				CODE_SIGN_ENTITLEMENTS = TrophyKit_Example_iOS.entitlements;
+				INFOPLIST_FILE = TrophyKit_Example_iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.yuboqin.TrophyKit-Example-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A02B4A3A6275EEE73BEA75F0 /* Pods-TrophyKit_Example.release.xcconfig */;
+			baseConfigurationReference = 001F0AE83D506C26969923C1 /* Pods-TrophyKit_Example_iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TrophyKit/Info.plist;
+				CODE_SIGN_ENTITLEMENTS = TrophyKit_Example_iOS.entitlements;
+				INFOPLIST_FILE = TrophyKit_Example_iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.yuboqin.TrophyKit-Example-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -520,7 +662,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrophyKit_Example.app/TrophyKit_Example";
 			};
 			name = Debug;
@@ -538,8 +680,89 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrophyKit_Example.app/TrophyKit_Example";
+			};
+			name = Release;
+		};
+		CB42A9B6268EE592007FBF1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D4E7CC75F9CFD1E9E6675C3 /* Pods-TrophyKit_Example_tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrophyKit_Example_tvOS/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = TrophyKit_Example_tvOS;
+				INFOPLIST_KEY_CFBundleName = TrophyKit_Example_tvOS;
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.yuboqin.TrophyKit-Example-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.1;
+			};
+			name = Debug;
+		};
+		CB42A9B7268EE592007FBF1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30C52C32D835CC658AAD5EEF /* Pods-TrophyKit_Example_tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrophyKit_Example_tvOS/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = TrophyKit_Example_tvOS;
+				INFOPLIST_KEY_CFBundleName = TrophyKit_Example_tvOS;
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.yuboqin.TrophyKit-Example-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.1;
 			};
 			name = Release;
 		};
@@ -555,7 +778,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TrophyKit_Example" */ = {
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TrophyKit_Example_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
@@ -569,6 +792,15 @@
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,
 				607FACF41AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB42A9B8268EE592007FBF1D /* Build configuration list for PBXNativeTarget "TrophyKit_Example_tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB42A9B6268EE592007FBF1D /* Debug */,
+				CB42A9B7268EE592007FBF1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

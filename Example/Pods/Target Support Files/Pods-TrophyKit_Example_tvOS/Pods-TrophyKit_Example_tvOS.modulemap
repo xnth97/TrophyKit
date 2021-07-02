@@ -1,0 +1,6 @@
+framework module Pods_TrophyKit_Example_tvOS {
+  umbrella header "Pods-TrophyKit_Example_tvOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

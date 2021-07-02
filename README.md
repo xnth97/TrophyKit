@@ -14,6 +14,7 @@ https://user-images.githubusercontent.com/6781789/123460143-0b87dd80-d59c-11eb-9
 ### Requirements
 
 * iOS 14.0+
+* tvOS 14.0+
 * Swift 5.3+
 
 ### Installation
@@ -45,6 +46,7 @@ trophy.show(from: self,
 ## TODO
 
 - [x] Performance optimization and support reuse
+- [x] tvOS support
 - [ ] More customization APIs
 - [ ] Tweak animation and visual
 - [ ] Sound and haptic support

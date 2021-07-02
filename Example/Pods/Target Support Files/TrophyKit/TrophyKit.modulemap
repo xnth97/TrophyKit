@@ -1,6 +1,0 @@
-framework module TrophyKit {
-  umbrella header "TrophyKit-umbrella.h"
-
-  export *
-  module * { export * }
-}

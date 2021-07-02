@@ -135,22 +135,46 @@ public class Trophy {
     private static func getHeight(for size: TrophyConfiguration.TrophySize) -> CGFloat {
         switch size {
         case .small:
+            #if os(iOS)
             return 48.0
+            #else
+            return 84.0
+            #endif
         case .medium:
+            #if os(iOS)
             return 56.0
+            #else
+            return 96.0
+            #endif
         case .large:
+            #if os(iOS)
             return 64.0
+            #else
+            return 108.0
+            #endif
         }
     }
 
     private static func getFontSize(for size: TrophyConfiguration.TrophySize) -> CGFloat {
         switch size {
         case .small:
+            #if os(iOS)
             return 14.0
+            #else
+            return 22.0
+            #endif
         case .medium:
+            #if os(iOS)
             return 16.0
+            #else
+            return 28.0
+            #endif
         case .large:
+            #if os(iOS)
             return 18.0
+            #else
+            return 34.0
+            #endif
         }
     }
 
